@@ -17,7 +17,7 @@ function Portfolio() {
             <a href="https://www.linkedin.com/in/heyloh/">
               <FiLinkedin size={26} color="#EFF0F6"/>
             </a>
-            <a href="mailto:lt.leopoldo@gmail.com">
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=lt.leopoldo@gmail.com">
               <FiMail size={26} color="#EFF0F6"/>
             </a>
             <a href="https://github.com/heyloh">
