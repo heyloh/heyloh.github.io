@@ -28,8 +28,8 @@ function Portfolio() {
             <h1>Olá, me chamo <span className="loh">Lohana Torres</span></h1>
             <p>
               Sou estudante de Informática do Médio Integrado ao Técnico e 
-              desenvolvedora Front-end e Back-end autodidata, estudando todos os 
-              dias para chegar no próximo nível!
+              desenvolvedora Front-end e Back-end autodidata. Este portfolio está 
+              em desenvolvimento, utilizando em ReactJS.
             </p>
           </div>
         </div>
