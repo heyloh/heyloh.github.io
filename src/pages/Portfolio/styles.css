@@ -1,0 +1,75 @@
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main .me-container h1{
+  color: #4E4CB5;
+  font-weight: 500;
+  margin-bottom: 0px;
+  font-size: 38px;
+}
+
+main .me-container .loh {
+  font-weight: 700;
+}
+
+main .me-container p {
+  color: #3A3C40;
+  max-width: 600px;
+  font-size: 24px;
+  line-height: 42px;
+  margin-top: 10px;
+}
+
+main .me-container {
+  margin-top: 15px;
+}
+
+main .buttons-container {
+  display: flex;
+  flex-direction: column;
+  margin-right: 35px;
+}
+
+main .buttons-container a {
+  width: 64px;
+  height: 64px;
+  background: #4E4CB5;
+  border: none;
+  border-radius: 8px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.2s;
+  cursor: pointer;
+}
+
+main .buttons-container a:hover {
+  background: #6967bd;
+}
+
+main .all {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 180px;
+}
+footer {
+  margin-bottom: 0;
+}
+
+footer {
+  position: absolute;
+  bottom: 5px;
+  width: 100%;
+}
+
+footer p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #3A3C40;
+}
