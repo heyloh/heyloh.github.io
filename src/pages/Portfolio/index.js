@@ -29,7 +29,7 @@ function Portfolio() {
             <p>
               Sou estudante de Informática do Médio Integrado ao Técnico e 
               desenvolvedora Front-end e Back-end autodidata. Este portfolio está 
-              em desenvolvimento, utilizando em ReactJS.
+              em desenvolvimento, utilizando ReactJS.
             </p>
           </div>
         </div>
