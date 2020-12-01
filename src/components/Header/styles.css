@@ -1,0 +1,33 @@
+header {
+  width: 100%;
+  height: 64px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #4E4CB5;
+}
+
+header .links {
+  margin-right: 100px;
+}
+
+header a {
+  text-decoration: none;
+  color: #BFC1C8;
+  margin-left: 45px;
+  font-weight: 500;
+  font-size: 18px;
+  transition: background-color 0.2s;
+  cursor: pointer;
+}
+
+header a:hover {
+  color: #dfe1e7;
+}
+
+header h1 {
+  color: #EFF0F6;
+  font-weight: 700;
+  font-size: 20px;
+  margin-left: 100px;
+}
