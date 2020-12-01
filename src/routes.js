@@ -5,7 +5,7 @@ import Portfolio from './pages/Portfolio';
 
 function Routes() {
   return(
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Switch>
         <Route path="/" component={Portfolio} exact />
       </Switch>
