@@ -73,3 +73,86 @@ footer p {
   font-size: 16px;
   color: #3A3C40;
 }
+
+@media (max-width: 714px) {
+  main .buttons-container {
+    width: 300px;
+    flex-direction: row;
+    margin-right: 0;
+    justify-content: space-between;
+    order: 3;
+    margin-top: 45px;
+  }
+
+  main .all {
+    flex-direction: column;
+  }
+
+  footer {
+    position: relative;
+    margin-top: 100px;
+  }
+
+  footer p {
+    font-size: 8px;
+  }
+}
+
+@media (max-width: 615px) {
+  main .me-container h1{
+    font-size: 24px;
+    padding: 0 20px;
+  }
+  
+  main .me-container p {
+    color: #3A3C40;
+    max-width: 600px;
+    font-size: 18px;
+    padding: 0 20px;
+    line-height: 32px;
+  }
+
+  main .buttons-container {
+    width: 250px;
+  }
+
+  footer {
+    position: relative;
+    margin-top: 100px;
+  }
+
+  footer p {
+    font-size: 8px;
+  }
+}
+
+@media (max-width: 320px) {
+  main .buttons-container a {
+    width: 52px;
+    height: 52px;
+  }
+
+  main .buttons-container {
+    width: 200px;
+  }
+
+  main .me-container h1{
+    font-size: 20px;
+  }
+  
+  main .me-container p {
+    color: #3A3C40;
+    max-width: 600px;
+    font-size: 14px;
+    line-height: 32px;
+  }
+
+  footer {
+    position: relative;
+    margin-bottom: 100px;
+  }
+
+  footer p {
+    font-size: 8px;
+  }
+}
