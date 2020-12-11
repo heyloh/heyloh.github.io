@@ -8,7 +8,7 @@ import Header from '../../components/Header';
 import './styles.css';
 
 function Portfolio() {
-  return(
+  return (
     <div className="container">
       <Header />
       <main>
@@ -37,7 +37,7 @@ function Portfolio() {
       <footer>
         <p align="center">Copyright © 2020 Lohana Torres</p>
       </footer>
-    </div>
+    </div >
   );
 }
 
